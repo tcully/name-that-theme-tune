@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D11EFC511E015812009BD397 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EFC501E015812009BD397 /* AppDelegate.swift */; };
+		D11EFC531E015812009BD397 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EFC521E015812009BD397 /* ViewController.swift */; };
+		D11EFC561E015812009BD397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11EFC541E015812009BD397 /* Main.storyboard */; };
+		D11EFC591E015812009BD397 /* Name_That_Theme_Tune.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D11EFC571E015812009BD397 /* Name_That_Theme_Tune.xcdatamodeld */; };
+		D11EFC5B1E015812009BD397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11EFC5A1E015812009BD397 /* Assets.xcassets */; };
+		D11EFC5E1E015812009BD397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11EFC5C1E015812009BD397 /* LaunchScreen.storyboard */; };
+		D11EFC691E015812009BD397 /* Name_That_Theme_TuneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EFC681E015812009BD397 /* Name_That_Theme_TuneTests.swift */; };
+		D11EFC741E015812009BD397 /* Name_That_Theme_TuneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EFC731E015812009BD397 /* Name_That_Theme_TuneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D11EFC651E015812009BD397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D11EFC451E015811009BD397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D11EFC4C1E015811009BD397;
+			remoteInfo = "Name That Theme Tune";
+		};
+		D11EFC701E015812009BD397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D11EFC451E015811009BD397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D11EFC4C1E015811009BD397;
+			remoteInfo = "Name That Theme Tune";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D11EFC4D1E015812009BD397 /* Name That Theme Tune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Name That Theme Tune.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D11EFC501E015812009BD397 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D11EFC521E015812009BD397 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D11EFC551E015812009BD397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D11EFC581E015812009BD397 /* Name_That_Theme_Tune.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Name_That_Theme_Tune.xcdatamodel; sourceTree = "<group>"; };
+		D11EFC5A1E015812009BD397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D11EFC5D1E015812009BD397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D11EFC5F1E015812009BD397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D11EFC641E015812009BD397 /* Name That Theme TuneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Name That Theme TuneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D11EFC681E015812009BD397 /* Name_That_Theme_TuneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name_That_Theme_TuneTests.swift; sourceTree = "<group>"; };
+		D11EFC6A1E015812009BD397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D11EFC6F1E015812009BD397 /* Name That Theme TuneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Name That Theme TuneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D11EFC731E015812009BD397 /* Name_That_Theme_TuneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name_That_Theme_TuneUITests.swift; sourceTree = "<group>"; };
+		D11EFC751E015812009BD397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D11EFC4A1E015811009BD397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11EFC611E015812009BD397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11EFC6C1E015812009BD397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D11EFC441E015811009BD397 = {
+			isa = PBXGroup;
+			children = (
+				D11EFC4F1E015812009BD397 /* Name That Theme Tune */,
+				D11EFC671E015812009BD397 /* Name That Theme TuneTests */,
+				D11EFC721E015812009BD397 /* Name That Theme TuneUITests */,
+				D11EFC4E1E015812009BD397 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D11EFC4E1E015812009BD397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D11EFC4D1E015812009BD397 /* Name That Theme Tune.app */,
+				D11EFC641E015812009BD397 /* Name That Theme TuneTests.xctest */,
+				D11EFC6F1E015812009BD397 /* Name That Theme TuneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D11EFC4F1E015812009BD397 /* Name That Theme Tune */ = {
+			isa = PBXGroup;
+			children = (
+				D11EFC501E015812009BD397 /* AppDelegate.swift */,
+				D11EFC521E015812009BD397 /* ViewController.swift */,
+				D11EFC541E015812009BD397 /* Main.storyboard */,
+				D11EFC5A1E015812009BD397 /* Assets.xcassets */,
+				D11EFC5C1E015812009BD397 /* LaunchScreen.storyboard */,
+				D11EFC5F1E015812009BD397 /* Info.plist */,
+				D11EFC571E015812009BD397 /* Name_That_Theme_Tune.xcdatamodeld */,
+			);
+			path = "Name That Theme Tune";
+			sourceTree = "<group>";
+		};
+		D11EFC671E015812009BD397 /* Name That Theme TuneTests */ = {
+			isa = PBXGroup;
+			children = (
+				D11EFC681E015812009BD397 /* Name_That_Theme_TuneTests.swift */,
+				D11EFC6A1E015812009BD397 /* Info.plist */,
+			);
+			path = "Name That Theme TuneTests";
+			sourceTree = "<group>";
+		};
+		D11EFC721E015812009BD397 /* Name That Theme TuneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D11EFC731E015812009BD397 /* Name_That_Theme_TuneUITests.swift */,
+				D11EFC751E015812009BD397 /* Info.plist */,
+			);
+			path = "Name That Theme TuneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D11EFC4C1E015811009BD397 /* Name That Theme Tune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D11EFC781E015812009BD397 /* Build configuration list for PBXNativeTarget "Name That Theme Tune" */;
+			buildPhases = (
+				D11EFC491E015811009BD397 /* Sources */,
+				D11EFC4A1E015811009BD397 /* Frameworks */,
+				D11EFC4B1E015811009BD397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Name That Theme Tune";
+			productName = "Name That Theme Tune";
+			productReference = D11EFC4D1E015812009BD397 /* Name That Theme Tune.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D11EFC631E015812009BD397 /* Name That Theme TuneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D11EFC7B1E015812009BD397 /* Build configuration list for PBXNativeTarget "Name That Theme TuneTests" */;
+			buildPhases = (
+				D11EFC601E015812009BD397 /* Sources */,
+				D11EFC611E015812009BD397 /* Frameworks */,
+				D11EFC621E015812009BD397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D11EFC661E015812009BD397 /* PBXTargetDependency */,
+			);
+			name = "Name That Theme TuneTests";
+			productName = "Name That Theme TuneTests";
+			productReference = D11EFC641E015812009BD397 /* Name That Theme TuneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D11EFC6E1E015812009BD397 /* Name That Theme TuneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D11EFC7E1E015812009BD397 /* Build configuration list for PBXNativeTarget "Name That Theme TuneUITests" */;
+			buildPhases = (
+				D11EFC6B1E015812009BD397 /* Sources */,
+				D11EFC6C1E015812009BD397 /* Frameworks */,
+				D11EFC6D1E015812009BD397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D11EFC711E015812009BD397 /* PBXTargetDependency */,
+			);
+			name = "Name That Theme TuneUITests";
+			productName = "Name That Theme TuneUITests";
+			productReference = D11EFC6F1E015812009BD397 /* Name That Theme TuneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D11EFC451E015811009BD397 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = bbc;
+				TargetAttributes = {
+					D11EFC4C1E015811009BD397 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					D11EFC631E015812009BD397 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D11EFC4C1E015811009BD397;
+					};
+					D11EFC6E1E015812009BD397 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D11EFC4C1E015811009BD397;
+					};
+				};
+			};
+			buildConfigurationList = D11EFC481E015811009BD397 /* Build configuration list for PBXProject "Name That Theme Tune" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D11EFC441E015811009BD397;
+			productRefGroup = D11EFC4E1E015812009BD397 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D11EFC4C1E015811009BD397 /* Name That Theme Tune */,
+				D11EFC631E015812009BD397 /* Name That Theme TuneTests */,
+				D11EFC6E1E015812009BD397 /* Name That Theme TuneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D11EFC4B1E015811009BD397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D11EFC5E1E015812009BD397 /* LaunchScreen.storyboard in Resources */,
+				D11EFC5B1E015812009BD397 /* Assets.xcassets in Resources */,
+				D11EFC561E015812009BD397 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11EFC621E015812009BD397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11EFC6D1E015812009BD397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D11EFC491E015811009BD397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D11EFC531E015812009BD397 /* ViewController.swift in Sources */,
+				D11EFC591E015812009BD397 /* Name_That_Theme_Tune.xcdatamodeld in Sources */,
+				D11EFC511E015812009BD397 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11EFC601E015812009BD397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D11EFC691E015812009BD397 /* Name_That_Theme_TuneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11EFC6B1E015812009BD397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D11EFC741E015812009BD397 /* Name_That_Theme_TuneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D11EFC661E015812009BD397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D11EFC4C1E015811009BD397 /* Name That Theme Tune */;
+			targetProxy = D11EFC651E015812009BD397 /* PBXContainerItemProxy */;
+		};
+		D11EFC711E015812009BD397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D11EFC4C1E015811009BD397 /* Name That Theme Tune */;
+			targetProxy = D11EFC701E015812009BD397 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D11EFC541E015812009BD397 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D11EFC551E015812009BD397 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D11EFC5C1E015812009BD397 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D11EFC5D1E015812009BD397 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D11EFC761E015812009BD397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D11EFC771E015812009BD397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D11EFC791E015812009BD397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Name That Theme Tune/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.bbc.Name-That-Theme-Tune";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D11EFC7A1E015812009BD397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Name That Theme Tune/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.bbc.Name-That-Theme-Tune";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D11EFC7C1E015812009BD397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Name That Theme TuneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.bbc.Name-That-Theme-TuneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Name That Theme Tune.app/Name That Theme Tune";
+			};
+			name = Debug;
+		};
+		D11EFC7D1E015812009BD397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Name That Theme TuneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.bbc.Name-That-Theme-TuneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Name That Theme Tune.app/Name That Theme Tune";
+			};
+			name = Release;
+		};
+		D11EFC7F1E015812009BD397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Name That Theme TuneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.bbc.Name-That-Theme-TuneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Name That Theme Tune";
+			};
+			name = Debug;
+		};
+		D11EFC801E015812009BD397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Name That Theme TuneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.bbc.Name-That-Theme-TuneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Name That Theme Tune";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D11EFC481E015811009BD397 /* Build configuration list for PBXProject "Name That Theme Tune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11EFC761E015812009BD397 /* Debug */,
+				D11EFC771E015812009BD397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D11EFC781E015812009BD397 /* Build configuration list for PBXNativeTarget "Name That Theme Tune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11EFC791E015812009BD397 /* Debug */,
+				D11EFC7A1E015812009BD397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D11EFC7B1E015812009BD397 /* Build configuration list for PBXNativeTarget "Name That Theme TuneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11EFC7C1E015812009BD397 /* Debug */,
+				D11EFC7D1E015812009BD397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D11EFC7E1E015812009BD397 /* Build configuration list for PBXNativeTarget "Name That Theme TuneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11EFC7F1E015812009BD397 /* Debug */,
+				D11EFC801E015812009BD397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D11EFC571E015812009BD397 /* Name_That_Theme_Tune.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D11EFC581E015812009BD397 /* Name_That_Theme_Tune.xcdatamodel */,
+			);
+			currentVersion = D11EFC581E015812009BD397 /* Name_That_Theme_Tune.xcdatamodel */;
+			path = Name_That_Theme_Tune.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D11EFC451E015811009BD397 /* Project object */;
+}
