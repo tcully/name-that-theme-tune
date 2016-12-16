@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Name That Theme Tune
-//
-//  Created by Thomas Cullinane on 14/12/2016.
-//  Copyright © 2016 bbc. All rights reserved.
-//
-
 import UIKit
 import CoreData
 

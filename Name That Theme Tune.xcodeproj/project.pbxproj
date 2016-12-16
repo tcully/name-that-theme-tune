@@ -13,8 +13,7 @@
 		D11EFC591E015812009BD397 /* Name_That_Theme_Tune.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D11EFC571E015812009BD397 /* Name_That_Theme_Tune.xcdatamodeld */; };
 		D11EFC5B1E015812009BD397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11EFC5A1E015812009BD397 /* Assets.xcassets */; };
 		D11EFC5E1E015812009BD397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11EFC5C1E015812009BD397 /* LaunchScreen.storyboard */; };
-		D11EFC691E015812009BD397 /* Name_That_Theme_TuneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EFC681E015812009BD397 /* Name_That_Theme_TuneTests.swift */; };
-		D11EFC741E015812009BD397 /* Name_That_Theme_TuneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11EFC731E015812009BD397 /* Name_That_Theme_TuneUITests.swift */; };
+		D11EFC8A1E018CC1009BD397 /* Surge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D11EFC871E018C98009BD397 /* Surge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +31,20 @@
 			remoteGlobalIDString = D11EFC4C1E015811009BD397;
 			remoteInfo = "Name That Theme Tune";
 		};
+		D11EFC861E018C98009BD397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D11EFC811E018C97009BD397 /* Surge.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8A1E1AA19917A79009735E2;
+			remoteInfo = Surge;
+		};
+		D11EFC881E018C98009BD397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D11EFC811E018C97009BD397 /* Surge.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F84A6AAE19A9A72F007B53E1;
+			remoteInfo = SurgeTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -44,11 +57,8 @@
 		D11EFC5D1E015812009BD397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D11EFC5F1E015812009BD397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D11EFC641E015812009BD397 /* Name That Theme TuneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Name That Theme TuneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D11EFC681E015812009BD397 /* Name_That_Theme_TuneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name_That_Theme_TuneTests.swift; sourceTree = "<group>"; };
-		D11EFC6A1E015812009BD397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D11EFC6F1E015812009BD397 /* Name That Theme TuneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Name That Theme TuneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D11EFC731E015812009BD397 /* Name_That_Theme_TuneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name_That_Theme_TuneUITests.swift; sourceTree = "<group>"; };
-		D11EFC751E015812009BD397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D11EFC811E018C97009BD397 /* Surge.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Surge.xcodeproj; path = Surge/Surge.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11EFC8A1E018CC1009BD397 /* Surge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,9 +90,8 @@
 		D11EFC441E015811009BD397 = {
 			isa = PBXGroup;
 			children = (
+				D11EFC811E018C97009BD397 /* Surge.xcodeproj */,
 				D11EFC4F1E015812009BD397 /* Name That Theme Tune */,
-				D11EFC671E015812009BD397 /* Name That Theme TuneTests */,
-				D11EFC721E015812009BD397 /* Name That Theme TuneUITests */,
 				D11EFC4E1E015812009BD397 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,22 +120,13 @@
 			path = "Name That Theme Tune";
 			sourceTree = "<group>";
 		};
-		D11EFC671E015812009BD397 /* Name That Theme TuneTests */ = {
+		D11EFC821E018C97009BD397 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D11EFC681E015812009BD397 /* Name_That_Theme_TuneTests.swift */,
-				D11EFC6A1E015812009BD397 /* Info.plist */,
+				D11EFC871E018C98009BD397 /* Surge.framework */,
+				D11EFC891E018C98009BD397 /* SurgeTests.xctest */,
 			);
-			path = "Name That Theme TuneTests";
-			sourceTree = "<group>";
-		};
-		D11EFC721E015812009BD397 /* Name That Theme TuneUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D11EFC731E015812009BD397 /* Name_That_Theme_TuneUITests.swift */,
-				D11EFC751E015812009BD397 /* Info.plist */,
-			);
-			path = "Name That Theme TuneUITests";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +193,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
-				ORGANIZATIONNAME = bbc;
+				ORGANIZATIONNAME = lottieandlace;
 				TargetAttributes = {
 					D11EFC4C1E015811009BD397 = {
 						CreatedOnToolsVersion = 8.1;
@@ -221,6 +222,12 @@
 			mainGroup = D11EFC441E015811009BD397;
 			productRefGroup = D11EFC4E1E015812009BD397 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D11EFC821E018C97009BD397 /* Products */;
+					ProjectRef = D11EFC811E018C97009BD397 /* Surge.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D11EFC4C1E015811009BD397 /* Name That Theme Tune */,
@@ -229,6 +236,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D11EFC871E018C98009BD397 /* Surge.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Surge.framework;
+			remoteRef = D11EFC861E018C98009BD397 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D11EFC891E018C98009BD397 /* SurgeTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SurgeTests.xctest;
+			remoteRef = D11EFC881E018C98009BD397 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D11EFC4B1E015811009BD397 /* Resources */ = {
@@ -272,7 +296,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D11EFC691E015812009BD397 /* Name_That_Theme_TuneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +303,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D11EFC741E015812009BD397 /* Name_That_Theme_TuneUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Name That Theme Tune/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.bbc.Name-That-Theme-Tune";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lottieandlace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -430,7 +452,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Name That Theme Tune/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.bbc.Name-That-Theme-Tune";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lottieandlace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -443,7 +465,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Name That Theme TuneTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.bbc.Name-That-Theme-TuneTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lottieandlace.Name-That-Theme-TuneTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Name That Theme Tune.app/Name That Theme Tune";
@@ -457,7 +479,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Name That Theme TuneTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.bbc.Name-That-Theme-TuneTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lottieandlace.Name-That-Theme-TuneTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Name That Theme Tune.app/Name That Theme Tune";
@@ -470,7 +492,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Name That Theme TuneUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.bbc.Name-That-Theme-TuneUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lottieandlace.Name-That-Theme-TuneUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Name That Theme Tune";
@@ -483,7 +505,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Name That Theme TuneUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.bbc.Name-That-Theme-TuneUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lottieandlace.Name-That-Theme-TuneUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Name That Theme Tune";
@@ -509,6 +531,7 @@
 				D11EFC7A1E015812009BD397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D11EFC7B1E015812009BD397 /* Build configuration list for PBXNativeTarget "Name That Theme TuneTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +540,7 @@
 				D11EFC7D1E015812009BD397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D11EFC7E1E015812009BD397 /* Build configuration list for PBXNativeTarget "Name That Theme TuneUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +549,7 @@
 				D11EFC801E015812009BD397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
